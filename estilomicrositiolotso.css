@@ -1,0 +1,685 @@
+@import url('https://fonts.googleapis.com/css2?family=Manjari&family=Rampart+One&display=swap');
+
+
+*{ 
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+body{ 
+ background-color: #dcdde1;
+font-family: 'Manjari', sans-serif; }
+
+
+main{
+	width: 95%;
+	height: 810px;	
+	margin-left: auto;
+	margin-right: auto;
+}
+header{
+	width: 95%;
+	height: 100px;
+	background-color: #9b0e5c;
+	margin-left: auto;
+	margin-right: auto;
+	}
+nav{
+	width: 95%;
+	height: 60px;
+	background-color: #9b0e5c;
+	margin-left: auto;
+	margin-right: auto;
+}
+section{
+	width: 95%;
+	height: 650px;
+	
+	
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(grandelotso6.png);
+   background-position: right bottom;
+   background-repeat: no-repeat;
+   background-color: #fff6ee;
+	
+
+}
+
+footer{
+	width: 95%;
+	height: 50px;
+	background-color: #9b0e5c; 
+	margin-left: auto;
+	margin-right: auto;
+     }
+
+/*EMPIEZA 1400 PX*/
+
+
+@media (min-width: 1400px) {
+
+#logo{  padding-right: 2%;
+	float: right;
+	   
+
+ }
+ 
+
+
+
+
+#menu{
+	margin: 0;
+     margin-left: 2%; 
+}
+#menu li{
+	display: inline;
+}
+
+#menu li	a {
+	font-size: 18px;
+	text-decoration: none;
+	float: left;
+	padding: 1%;
+	margin-right: 2%;
+	color:#1e272e; 
+	background-color: #fff6ee;
+	
+	
+}
+
+#logodisney{ float: right;
+	padding-top: 0.5%;
+   margin-top: -2.5%;
+   margin-right: 5px;}
+
+
+
+
+   .logoup{ 
+	float: left;
+	margin-left: 2%;}
+
+#nombre{ 
+	     
+	     margin-left: 45%;
+	     padding-top: 1.5%;}
+
+#nombre a{ font-size: 10pt;
+	       color: #1e272e;
+	       text-decoration:	none; 
+	       	color: white;}
+
+
+
+
+
+#textom{ color:#f5f6fa;
+        font-size: 15pt;
+        margin-top: 3%;
+        
+        margin-left: 2%;
+        padding: 2%;
+
+        background-color:  #9b0e5c; 
+	    width: 30%;
+	    float: left;
+	    }
+
+
+
+
+	    #cajarelevamiento { width: 100%;
+	height: 650px;
+	    background-color: #fff6ee; 
+	     }
+ #imgrelevamiento{ padding-top: 3%;
+	     margin-left: 12%; }
+
+
+#imgdiseño{ padding-top: 12%;
+	     margin-left: 12%; }
+
+
+#imgrelevamiento2 { padding-top: 10%;
+	                margin-left: 9%;
+	                display: none;} 
+	                #imgrelevamiento3 { padding-top: 20%;
+	                margin-left: 12%; display: none;
+	               } 
+
+
+
+#imgrelevamiento800 { padding-top: 2.5%;
+	                margin-left: 28%;
+	                display: none;
+	               } 
+
+#wireframepdf{
+	
+	margin-left: 25%;
+	padding-top: 2%;
+	
+}
+#wireframecelular{ margin-left: 13%;
+	padding-top: 20%; 
+	display: none; }
+
+
+	}
+
+
+
+	/*EMPIEZA 1200 PX*/
+
+@media (min-width: 1200px) and (max-width: 1399px) 
+
+{ #logo{  padding-right: 2%;
+	float: right;
+	   
+
+ }
+ 
+
+
+
+
+#menu{
+	margin: 0;
+     margin-left: 2%; 
+}
+#menu li{
+	display: inline;
+}
+
+#menu li	a {
+	font-size: 18px;
+	text-decoration: none;
+	float: left;
+	padding: 1%;
+	margin-right: 2%;
+	color:#1e272e; 
+	background-color: #fff6ee;
+	
+	
+}
+
+#logodisney{ float: right;
+	padding-top: 0.5%;
+   margin-top: -2.5%;
+   margin-right: 5px;}
+
+
+
+
+   .logoup{ 
+	float: left;
+	margin-left: 2%;}
+
+#nombre{ 
+	     
+	     margin-left: 45%;
+	     padding-top: 1.5%;}
+
+#nombre a{ font-size: 10pt;
+	       color: #1e272e;
+	       text-decoration:	none; 
+	       	color: white;}
+
+
+
+
+
+#textom{ color:#f5f6fa;
+        font-size: 15pt;
+        margin-top: 3%;
+        
+        margin-left: 2%;
+        padding: 2%;
+
+        background-color:  #9b0e5c; 
+	    width: 30%;
+	    float: left;
+	     }
+
+
+
+
+	    #cajarelevamiento { width: 100%;
+	height: 650px;
+	    background-color: #fff6ee; 
+	     }
+ #imgrelevamiento{ padding-top: 3%;
+	     margin-left: 5%; }
+
+
+#imgdiseño{ padding-top: 15%;
+	     margin-left: 5%; }
+
+#imgrelevamiento2 { padding-top: 10%;
+	                margin-left: 9%;
+	                display: none;} 
+	                #imgrelevamiento3 { padding-top: 20%;
+	                margin-left: 12%; display: none;
+	               } 
+#imgrelevamiento800 { padding-top: 2.5%;
+	                margin-left: 28%;
+	                display: none;
+	               } 
+
+#wireframepdf{
+	
+	margin-left: 23%;
+	padding-top: 2%;
+	
+}
+
+#wireframecelular{ margin-left: 13%;
+	padding-top: 20%; 
+	display: none; }
+
+
+
+	}
+
+
+/*EMPIEZA TABLET 992 AHORA*/
+
+
+@media (min-width: 992px)  and (max-width: 1199px)  
+
+{ #logo{  padding-right: 2%;
+	float: right;
+	   
+
+ }
+ 
+
+
+
+
+#menu{
+	margin: 0;
+     margin-left: 2%; 
+}
+#menu li{
+	display: inline;
+}
+
+#menu li	a {
+	font-size: 18px;
+	text-decoration: none;
+	float: left;
+	padding: 1%;
+	margin-right: 2%;
+	color:#1e272e; 
+	background-color: #fff6ee;
+	
+	
+}
+
+#logodisney{ float: right;
+	
+   margin-top: -2.5%;
+   margin-right: 5px;}
+
+
+
+
+   .logoup{ 
+	float: left;
+	margin-left: 2%;}
+
+#nombre{ 
+	     
+	     margin-left: 43%;
+	     padding-top: 2%;}
+
+#nombre a{ font-size: 10pt;
+	       color: #1e272e;
+	       text-decoration:	none; 
+	       	color: white;}
+
+
+
+
+
+#textom{ color:#f5f6fa;
+        font-size: 15pt;
+        margin-top: 3%;
+        
+        margin-left: 2%;
+        padding: 2%;
+
+        background-color:  #9b0e5c; 
+	    width: 30%;
+	    float: left;
+	   
+	     }
+
+
+
+
+	    #cajarelevamiento { width: 100%;
+	height: 950px;
+	    background-color: #fff6ee; 
+	     }
+ #imgrelevamiento{ padding-top: 2%;
+	     margin-left: 2%; display: none;
+	      }
+
+
+#imgdiseño{ padding-top: 15%;
+	     margin-left: 23%; }
+
+
+#imgrelevamiento2 { padding-top: 15%;
+	                margin-left: 9%;display: none;} 
+
+	         #imgrelevamiento3 { padding-top: 2%;
+	                margin-left: 28%; 
+	                
+	               } 
+	               #imgrelevamiento800 { padding-top: 2.5%;
+	                margin-left: 28%;
+	                display: none;
+	               } 
+section{
+	width: 95%;
+	height: 950px;
+	
+	
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(grandelotso6.png);
+   background-position: right bottom;
+   background-repeat: no-repeat;
+   background-color: #fff6ee;
+	
+
+}
+
+#wireframepdf{
+	
+	margin-left: 16%;
+	padding-top: 8%;
+	
+}
+
+
+#wireframecelular{ margin-left: 13%;
+	padding-top: 20%; 
+	display: none; }
+
+
+
+	}
+
+
+
+/*EMPIEZA TABLET 768 AHORA*/
+
+
+@media (min-width: 768px) and (max-width: 991px) 
+
+
+ { 
+#logo{  padding-right: 2%;
+	float: right;
+	   
+
+ }
+ 
+
+
+
+
+#menu{
+	margin: 0;
+     margin-left: 2%; 
+}
+#menu li{
+	display: inline;
+}
+
+#menu li	a {
+	font-size: 18px;
+	text-decoration: none;
+	float: left;
+	padding: 1%;
+	margin-right: 2%;
+	color:#1e272e; 
+	background-color: #fff6ee;
+	
+	
+}
+
+#logodisney{ float: right;
+	
+   margin-top: -3.5%;
+   margin-right: 5px;}
+
+
+
+
+   .logoup{ 
+	float: left;
+	margin-left: 2%;}
+
+#nombre{ 
+	     
+	     margin-left: 40%;
+	     padding-top: 3%;}
+
+#nombre a{ font-size: 10pt;
+	       color: #1e272e;
+	       text-decoration:	none; 
+	       	color: white;}
+
+
+
+
+
+#textom{ color:#f5f6fa;
+        font-size: 15pt;
+       
+        
+        margin-left: 2%;
+        padding: 3%;
+
+        background-color:  #9b0e5c; 
+	    width: 50%;
+	    
+	   
+	     }
+
+
+
+
+	    #cajarelevamiento { width: 100%;
+	height: 800px;
+	    background-color: #fff6ee; 
+	     }
+ #imgrelevamiento{ padding-top: 5%;
+	     margin-left: 2%; 
+	     display: none; }
+
+
+#imgdiseño{ padding-top: 15%;
+	     margin-left: 16%; }
+
+
+#imgrelevamiento2 { padding-top: 3%;
+	                margin-left: 10%;
+	                display: none;} 
+
+#imgrelevamiento3 { padding-top: 20%;
+	                margin-left: 12%;
+	                display: none;
+	               } 
+
+
+
+#imgrelevamiento800 { padding-top: 4%;
+	                margin-left: 28%;
+	               } 
+
+section{
+	width: 95%;
+	height: 800px;
+	
+	
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(grandelotso6.png);
+   background-position: right bottom;
+   background-repeat: no-repeat;
+   background-color: #fff6ee;
+	
+
+}
+#wireframepdf{
+	
+	margin-left: 7%;
+	padding-top: 8%;
+	
+}
+#wireframecelular{ margin-left: 13%;
+	padding-top: 20%; 
+	display: none; }
+
+	}
+
+
+/*EMPIEZA CELU 576 AHORA*/
+
+
+
+
+@media (min-width: 576px) and ( max-width:  767px) 
+
+
+ { #logo{  padding-right: 2%;
+	float: right;
+	   
+
+ }
+ 
+
+
+
+
+#menu{
+	margin: 0;
+     margin-left: 2%; 
+}
+#menu li{
+	display: inline;
+}
+
+#menu li	a {
+	font-size: 18px;
+	text-decoration: none;
+	float: left;
+	padding: 1%;
+	margin-right: 2%;
+	color:#1e272e; 
+	background-color: #fff6ee;
+	
+	
+}
+
+#logodisney{ float: right;
+	
+   margin-top: -4%;
+   margin-right: 5px;}
+
+
+
+
+   .logoup{ 
+	float: left;
+	margin-left: 2%;}
+
+#nombre{ 
+	     
+	     margin-left: 38%;
+	     padding-top: 4%;}
+
+#nombre a{ font-size: 10pt;
+	       color: #1e272e;
+	       text-decoration:	none; 
+	       	color: white;}
+
+
+
+
+
+#textom{ color:#f5f6fa;
+        font-size: 15pt;
+        margin-top: 3%;
+        
+        margin-left: 2%;
+        padding: 2%;
+
+        background-color:  #9b0e5c; 
+	    width: 60%;
+	    float: left;
+	   
+	     }
+
+
+
+	    #cajarelevamiento { width: 100%;
+	height: 800px;
+	    background-color: #fff6ee; 
+	     }
+ #imgrelevamiento{ padding-top: 2%;
+	     margin-left: 2%; 
+	     display: none; }
+
+
+#imgdiseño{ padding-top: 15%;
+	     margin-left: 5.5%; }
+
+
+#imgrelevamiento2 { padding-top: 10%;
+	                margin-left: 2%;
+	         display: none;} 
+#imgrelevamiento3 { padding-top: 10%;
+	                margin-left: 25%;display: none;
+	               } 
+
+#imgrelevamiento800 { padding-top: 6%;
+	                margin-left: 20%;
+	                
+	               } 
+
+section{
+	width: 95%;
+	height: 800px;
+	
+	
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(grandelotso6.png);
+   background-position: right bottom;
+   background-repeat: no-repeat;
+   background-color: #fff6ee;
+	
+
+}
+
+#wireframepdf{
+	
+	margin-left: 0.5%;
+	padding-top: 8%;
+	display: none;
+	
+}
+
+#wireframecelular{ margin-left: 13%;
+	padding-top: 20%;  }
+
+	}

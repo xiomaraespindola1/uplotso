@@ -1,0 +1,2025 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Rubik&display=swap');
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	height: 100%;
+}
+
+body{
+	 font-family: 'Rubik', sans-serif;
+	 font-family: 'Grand Hotel', cursive;
+	font-size: 1.2rem;
+	 
+	background: #ecf0f1;
+	color: #f5f6fa;
+	max-width: 1000px;
+  
+	 
+}
+
+.grid_container{
+	width: 90%;
+	
+	margin: 20px auto;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, auto);
+	grid-template-areas:  
+	"header header header" 
+	"main   main   sidebar"	
+	"footer footer footer"
+	
+	;
+}
+
+.grid_container .header{
+	grid-area: header;
+	background-color: #ff6b81;
+}
+
+
+
+
+.grid_container .main{
+	grid-area: main;
+	
+	background-color: #ffffff;
+}
+
+.grid_container .sidebar{
+	grid-area: sidebar;
+	background-color: #ffffff;
+}
+
+.grid_container .footer{
+	grid-area: footer;
+	background-color: #ff6b81;
+}
+
+
+.imginicio { margin-top: -40%; }
+
+.logoup{ 
+	float: left;
+	margin-left: 2%;
+    margin-top: 0.5%;}
+
+#nombre{ 
+	     float: right;
+	     margin-right: 5%;
+	     padding-top: 1.5%;}
+
+#nombre a{ font-size: 8pt;
+	       
+	       text-decoration:	none; 
+	       	color:#ffffff;
+	        font-family: 'Rubik', sans-serif;
+}
+
+.titulo{ color: #ffffff;
+        font-size: 20pt;
+        margin-top: 2%;
+        margin-left: 23%;
+        padding: 2%;
+        float: left;
+	   
+	   font-family: 'Grand Hotel', cursive;}
+
+
+.tituloparte2{
+     font-family: 'Rubik', sans-serif;
+      color: #ffffff;
+        font-size: 10pt;
+        margin-top: 5%;
+        
+        margin-left: 23%;
+        padding: 2%;
+        float: left;
+	     }
+
+.tituloparte3{ text-decoration: underline;
+               
+                }
+
+form{
+    background-color: #fd79a8;
+    width: 100%;
+
+ 
+    margin-right:10%;
+    padding: 5%;
+    
+    padding-top: 50px;
+     font-family: 'Rubik', sans-serif;
+
+}
+
+.cajas{
+    width: 50%;
+}
+
+.boton{
+    width: 80px;
+    height: 30px;
+    color: #dfe6e9;
+    background-color: #00b894;
+     font-family: 'Rubik', sans-serif;
+
+   
+}
+
+.navbar{
+	margin: 0;
+     margin-left: 2%; 
+}
+.navbar li{
+	display: inline;
+}
+
+.navbar li	a {
+	 font-family: 'Rubik', sans-serif;
+
+	font-size: 15px;
+	text-decoration: none;
+	float: right;
+	padding: 0.5%;
+	margin-top: 5%;
+	margin-right: 2%;
+	color:#1e272e; 
+	background-color: #ffffff;
+	border-radius: 20px;
+	}
+#logo{  padding-left: 1%;
+	   margin-top: -1%;
+
+	float: left;
+	   
+
+ } 
+
+.grid_containergrupos{ 	width: 90%;
+		margin: 20px auto;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, auto);
+	grid-template-areas:  
+	"header header header"  
+	"main   main   main"	
+	"footer footer footer"
+	
+	;  } 
+
+
+.grid_containergrupos .header{
+	grid-area: header;
+	background-color: #ff6b81;
+}
+
+
+
+
+.grid_containergrupos .main{
+	grid-area: main;
+	background-color: #ffffff;
+}
+
+
+
+.grid_containergrupos .footer{
+	grid-area: footer;
+	background-color: #ff6b81;
+}
+
+
+
+.titulogrupos{  color: #34495e;
+        font-size: 20pt;
+        margin-top: 2%;
+        margin-left: 23%;
+        padding: 2%;
+        float: left;
+	   
+	   font-family: 'Grand Hotel', cursive;}
+
+
+.titulogrupos2{
+     font-family: 'Rubik', sans-serif;
+      color: #34495e;
+        font-size: 10pt;
+        margin-top: 5%;
+        
+        margin-left: 23%;
+        padding: 2%;
+        float: left;
+	     }  
+.personajes { 
+   font-size: 18px;
+	text-decoration: none; 
+	color:#1e272e;
+        margin-right: 2%;
+        margin-left: 2%;
+        padding:2%;
+        
+	    	    float:right;
+	    width: 95%;
+	    height: 500px; 
+	     
+	 font-family: 'Rubik', sans-serif;}
+
+#imggrupos1{font-size: 18px;
+	text-decoration: none; 
+	color:#1e272e;
+        
+        margin-left: 5%;
+        padding:2%;
+        
+	    	    float:left;
+	    width: 25%;
+	    height: 200px;
+	     
+	     font-family: 'Rubik', sans-serif;}
+
+#imggrupos2{font-size: 18px;
+	text-decoration: none; 
+	color:#1e272e;
+        
+        margin-left: 50%;
+        padding:3%;
+         
+	    	    
+	    width: 25%;
+	    height: 200px;
+	     
+	 font-family: 'Rubik', sans-serif;}
+
+#imggrupos3{font-size: 18px;
+	text-decoration: none; 
+	color:#1e272e;
+        
+        margin-left: 15%;
+        padding: 15%;
+        
+	    	    float:left;
+	    width: 25%;
+	    height: 200px;
+	     
+	 font-family: 'Rubik', sans-serif;}
+
+.h5{  text-align: center; }
+
+
+.grid_containerinst{ 	width: 90%;
+		margin: 20px auto;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, auto);
+	grid-template-areas:  
+	"header header header" 
+	"main   main   main"	
+	"footer footer footer"
+	
+	;  } 
+
+
+.grid_containerinst .header{
+	grid-area: header;
+	background-color: #ff6b81;
+}
+
+
+
+
+.grid_containerinst .main{
+	grid-area: main;
+	background-color: #ffffff;
+}
+
+
+
+.grid_containerinst .footer{
+	grid-area: footer;
+	background-color: #ff6b81;
+}
+
+.inst { 
+  
+	
+        margin-right: 2%;
+        margin-left: 2%;
+        padding:2%;
+        
+	    	    float:right;
+	    width: 95%;
+	    height: 500px; 
+	     
+	 }
+
+#imginst1{
+	
+        
+        margin-left: 5%;
+        padding:2%;
+        
+	    	    float:left;
+	    width: 25%;
+	    height: 200px;
+	     
+	     }
+
+#imginst2{ 
+	
+        
+        margin-left: 50%;
+        padding:3%;
+         
+	    	    
+	    width: 25%;
+	    height: 200px;
+	     
+	 }
+
+#imginst3{
+        
+        margin-left: 15%;
+        padding: 15%;
+        
+	    	    float:left;
+	    width: 25%;
+	    height: 200px;
+	     
+	 }
+
+.tituloinst{  color: #34495e;
+        font-size: 20pt;
+        margin-top: 1%;
+        margin-left: 5%;
+        padding: 2%;
+        float: left;
+	   
+	   font-family: 'Grand Hotel', cursive;}
+
+
+
+.grid_containerhora
+{ 	width: 90%;
+	margin: 20px auto;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, auto);
+	grid-template-areas:  
+	"header header header" 
+	"main   main   main"	
+	"footer footer footer"
+	
+	;  } 
+
+
+.grid_containerhora .header{
+	grid-area: header;
+	background-color: #ff6b81;
+}
+
+
+
+
+.grid_containerhora .main{
+	grid-area: main;
+	background-color: #ffffff;
+}
+
+
+
+.grid_containerhora .footer{
+	grid-area: footer;
+	background-color: #ff6b81;
+}
+.titulohora{  color: #34495e;
+        font-size: 20pt;
+        margin-top: 1%;
+        margin-left: 5%;
+        
+        float: center;
+	   
+	   font-family: 'Grand Hotel', cursive;}
+
+
+.titulohora2{
+     font-family: 'Rubik', sans-serif;
+      color: #34495e;
+        font-size: 10pt;
+        margin-top: 1%;
+        
+        margin-left: 5%;
+        
+        float: center;
+	     }  
+
+.horaimg { 
+
+
+  	    margin-left: 55%;
+        margin-top: -30%;
+	   
+	    width: 95%;
+	    height: 500px; 
+	}
+
+
+
+@media (min-width: 576px) and (max-width: 767px){
+
+	.grid_container{
+
+		grid-template: 
+		"header" 100px 	 
+		"main"   525px  
+		"sidebar"330px 
+		"footer" 60px	 ;
+ 	}
+.logoup{ 
+	float: left;
+	margin-left: 2%;
+    margin-top: 0.5%;}
+
+#nombre{ 
+	     float: right;
+	     margin-right: 5%;
+	     padding-top: 3%;}
+
+#nombre a{ font-size: 8pt;
+	       
+	       text-decoration:	none; 
+	       	color:#ffffff;
+	        font-family: 'Rubik', sans-serif;
+}
+
+.titulo{ color: #34495e;
+        font-size: 20pt;
+        margin-top: 2%;
+        margin-left: 4%;
+        padding: 2%;
+        float: left;
+	   
+	   font-family: 'Grand Hotel', cursive;}
+
+
+.tituloparte2{
+     font-family: 'Rubik', sans-serif;
+      color: #34495e;
+        font-size: 10pt;
+        margin-top: 2%;
+        
+        margin-left: 4%;
+        padding: 2%;
+        float: left;
+	     }
+
+.tituloparte3{ text-decoration: underline;
+		           text-align: center;
+
+               
+                }
+
+
+.imginicio {  
+                            margin-top: 10%;
+              
+              
+                             }
+.imginicio1{ 
+              margin-top: 8%; display: none; }
+
+form{
+    background-color: #fd79a8;
+    width: 100%;
+
+ 
+    margin-right: 20%;
+    padding: 5%;
+    
+    padding-top: 50px;
+     font-family: 'Rubik', sans-serif;
+          text-align: center;
+
+
+}
+
+
+
+.cajas{
+    width: 50%;
+}
+
+.boton{
+    width: 80px;
+    height: 30px;
+    color: #dfe6e9;
+    background-color: #00b894;
+     font-family: 'Rubik', sans-serif;
+
+   
+}
+
+
+
+
+
+
+
+ .navbar{
+	margin: 0;
+     margin-left: 2%; 
+}
+.navbar li{
+	display: inline;
+}
+
+.navbar li	a {
+	 font-family: 'Rubik', sans-serif;
+
+	font-size: 15px;
+	text-decoration: none;
+	float: right;
+	padding: 0.5%;
+	margin-top: 10%;
+	margin-right: 2%;
+	color:#1e272e; 
+	background-color: #ffffff;
+	border-radius: 20px;
+
+	
+	
+	
+}
+#logo{  padding-left: 1%;
+	   margin-top: -1%;
+
+	float: left;
+	   
+
+ }
+ .grid_containergrupos{
+
+		grid-template: 
+		"header" 100px 	 
+		"main"   1780px  
+		"footer" 60px	 ;
+ 	}
+.titulogrupos{  color: #34495e;
+        font-size: 20pt;
+        margin-top: 1%;
+        margin-left: 7%;
+     
+	   font-family: 'Grand Hotel', cursive;}
+
+
+.infogrupos{
+     font-family: 'Rubik', sans-serif;
+      color: #34495e;
+        font-size: 10pt;
+        margin-top: 3%;
+        
+        margin-left: 10%;
+       
+	     }  
+
+.personajes { 
+   font-size: 18px;
+	text-decoration: none; 
+	color:#1e272e;
+        margin-right: 2%;
+        margin-left: 2%;
+        padding:2%;
+        
+	    	    float:right;
+	    width: 95%;
+	    height: 500px; 
+	     
+	 font-family: 'Rubik', sans-serif;}
+
+
+#imggrupos{font-size: 18px;
+	text-decoration: none; 
+	    margin-left: 13%;
+	    margin-top: 5%;
+       font-family: 'Rubik', sans-serif;
+	  color: #34495e;}
+
+#imggrupos1{font-size: 18px;
+	text-decoration: none; 
+	
+	     margin-top: 5%;
+	     margin-left: 11%;
+	     font-family: 'Rubik', sans-serif;
+	  color: #34495e;}
+
+#imggrupos2{font-size: 18px;
+	text-decoration: none; 
+	margin-top: 66%;
+	margin-left: 10%;
+	     
+	 font-family: 'Rubik', sans-serif;
+	 color: #34495e;}
+
+#imggrupos3{font-size: 18px;
+	text-decoration: none;
+	margin-top: 10%;
+	     margin-left: -2%;
+	 font-family: 'Rubik', sans-serif;
+
+      color: #34495e;}
+
+ .videogrupos{ margin-top: 5%;
+     font-family: 'Rubik', sans-serif;
+
+      color: #34495e;
+      }
+
+.h5{  text-align: center;
+      }
+.videogrupost{ font-family: 'Rubik', sans-serif;
+
+      color: #34495e; 
+      margin-top: 235%;
+      text-align: center;
+  }
+
+
+
+ .grid_containerinst{ 
+ 	grid-template: 
+		"header" 100px 	 
+		"main"   2000px  
+		"footer" 60px	 ;
+ 	}
+.inst { 
+  
+	
+        margin-right: 2%;
+        margin-left: 2%;
+        padding:2%;
+        
+	    	    float:right;
+	    width: 95%;
+	    height: 500px; 
+	     
+	 }
+
+#imginst{
+	
+        margin-top: 5%;
+        margin-left: 13%;
+	    width: 25%;
+	    height: 200px;
+	    font-family: 'Rubik', sans-serif;
+      color: #34495e;
+	     
+	     }
+
+#imginst1{
+	    margin-left: 11%;
+        margin-top: 13%;
+	    width: 25%;
+	    height: 200px;
+	    font-family: 'Rubik', sans-serif;
+      color: #34495e;
+	     
+	     }
+
+#imginst2{ 
+	
+        
+       margin-left: 10.5%;
+        margin-top: 71%;
+	    	    
+	    width: 25%;
+	    height: 200px;
+	    font-family: 'Rubik', sans-serif;
+      color: #34495e;
+	     
+	 }
+
+#imginst3{
+        margin-left: -1.5%;
+	   margin-top: -5%;
+	    font-family: 'Rubik', sans-serif;
+      color: #34495e;
+	     
+	 }
+
+#imginst4{
+	
+       margin-top: 5%;
+       margin-left: 13.5%;
+	    	
+	    font-family: 'Rubik', sans-serif;
+      color: #34495e;
+	     
+	     }
+
+	#imginst5{ 
+		  margin-top: 1%;
+		  margin-left: 13.5%;
+
+	    font-family: 'Rubik', sans-serif;
+      color: #34495e;
+	     
+	     }
+
+
+.tituloinst{  color: #34495e;
+        font-size: 20pt;
+        
+        
+        
+	   
+	   font-family: 'Grand Hotel', cursive;}
+
+
+.tituloinst2 {  font-family: 'Rubik', sans-serif;
+      color: #34495e;
+        font-size: 10pt;
+        text-align: center;
+       
+      }
+.tituloinst3 {  font-family: 'Rubik', sans-serif;
+      color: #34495e;
+        font-size: 10pt;
+          text-align: center;
+         margin-top: 50%;
+      
+}
+
+
+.h5{ font-family: 'Rubik', sans-serif;
+      color: #34495e; }
+
+.grid_containerhora{ 
+ 	grid-template: 
+		"header" 100px 	 
+		"main"   700px  
+		"footer" 60px	 ;
+ 	}
+ 
+	.titulohora{  color: #34495e;
+        font-size: 20pt;
+        margin-top: 1%;
+        margin-left: 6%;
+        
+        
+	   
+	   font-family: 'Grand Hotel', cursive;}
+
+
+.titulohora2{
+     font-family: 'Rubik', sans-serif;
+      color: #34495e;
+        font-size: 10pt;
+        margin-top: 1%;
+        
+        margin-left: 8%;
+        
+       
+	     }  
+
+.horaimg { 
+
+
+  	    margin-left: 20%;
+        margin-top: 15%;
+	   
+	    width: 95%;
+	    height: 500px; 
+	    display: none;
+	}
+.horaimg1{ 
+           margin-left: 18%;
+        
+       margin-top: 5%;}
+
+.columnahora{ padding: 20px;
+column-count: 2;
+column-gap: 40px;
+column-rule: 1px solid #34495e; 
+color: #34495e;
+ font-family: 'Rubik', sans-serif;
+ font-size: 11pt;
+ margin-left: 5%;
+}
+
+ 
+}
+
+
+@media (min-width: 768px) and (max-width: 991px)
+
+{ .grid_container{
+		grid-template: 
+		"header 	 header"    100px 
+		"main        main"      525px
+		"sidebar     sidebar"   400px
+		"footer 	 footer"    60px /
+		 400px 	     200px;
+	}
+
+
+.logoup{ 
+	float: left;
+	margin-left: 2%;
+    margin-top: 0.5%;}
+
+#nombre{ 
+	     float: right;
+	     margin-right: 5%;
+	     padding-top: 1.5%;}
+
+#nombre a{ font-size: 8pt;
+	       
+	       text-decoration:	none; 
+	       	color:#ffffff;
+	        font-family: 'Rubik', sans-serif;
+}
+
+.titulo{ color: #34495e;
+        font-size: 20pt;
+        
+        margin-left: 5%;
+        float: left;
+	   
+	   font-family: 'Grand Hotel', cursive;}
+
+
+.tituloparte2{
+     font-family: 'Rubik', sans-serif;
+      color: #34495e;
+        font-size: 10pt;
+        margin-left: 5%;
+        margin-top: -2%;
+        float: left;
+	     }
+
+.tituloparte3{ text-decoration: underline;
+	           text-align: center;
+
+
+               
+                }
+
+                  .imginicio {  
+              
+              margin-top: 8%;
+              display: none;
+              
+            
+                             }
+                 .imginicio1{ 
+              margin-top: 8%; 
+              margin-left: 0.5%;
+                 }
+
+
+form{
+    background-color: #fd79a8;
+    width: 100%;
+    height: 100%;
+
+ 
+    margin-right:10%;
+    padding: 3%;
+    
+    padding-top: 50px;
+     font-family: 'Rubik', sans-serif;
+     text-align: center;
+
+}
+
+.cajas{
+    width: 80%;
+}
+
+.boton{
+    width: 80px;
+    height: 30px;
+    color: #dfe6e9;
+    background-color: #00b894;
+     font-family: 'Rubik', sans-serif;
+
+   
+}
+
+
+
+
+
+
+
+ .navbar{
+	margin: 0;
+     margin-left: 2%; 
+
+}
+.navbar li{
+	display: inline;
+}
+
+.navbar li	a {
+	 font-family: 'Rubik', sans-serif;
+
+	font-size: 15px;
+	text-decoration: none;
+	float: right;
+	padding: 0.5%;
+	margin-top: 10%;
+	margin-right: 2%;
+	color:#1e272e; 
+	background-color: #ffffff;
+	border-radius: 20px;
+	
+
+	
+	
+	
+}
+#logo{  padding-left: 1%;
+	   margin-top: -1%;
+
+	float: left;
+	   
+
+ }
+
+
+
+ .grid_containergrupos{
+		grid-template: 
+		"header 	 header"    100px 
+		"main        main"      1800px
+		"footer 	 footer"    60px /
+		 400px       200px;
+	}
+
+
+
+.titulogrupos{  color: #34495e;
+        font-size: 20pt;
+        margin-top: 1%;
+        margin-left: 7%;
+     
+	   font-family: 'Grand Hotel', cursive;}
+
+
+.infogrupos{
+     font-family: 'Rubik', sans-serif;
+      color: #34495e;
+        font-size: 10pt;
+        margin-top: 3%;
+        
+        margin-left: 10%;
+       
+	     }  
+
+.personajes { 
+   font-size: 18px;
+	text-decoration: none; 
+	color:#1e272e;
+        margin-right: 2%;
+        margin-left: 2%;
+        padding:2%;
+        
+	    	    float:right;
+	    width: 95%;
+	    height: 500px; 
+	     
+	 font-family: 'Rubik', sans-serif;}
+
+
+#imggrupos{font-size: 18px;
+	text-decoration: none; 
+	    margin-left: 17%;
+	    margin-top: 4%;
+       font-family: 'Rubik', sans-serif;
+	  color: #34495e;}
+
+#imggrupos1{font-size: 18px;
+	text-decoration: none; 
+	
+	     margin-top:  4%;
+	     margin-left: 15%;
+	     font-family: 'Rubik', sans-serif;
+	  color: #34495e;}
+
+#imggrupos2{font-size: 18px;
+	text-decoration: none; 
+	margin-top: 57%;
+	margin-left: 14%;
+	     
+	 font-family: 'Rubik', sans-serif;
+	 color: #34495e;}
+
+#imggrupos3{font-size: 18px;
+	text-decoration: none; 
+	margin-top: 7%;
+	     margin-left: 2%;
+	 font-family: 'Rubik', sans-serif;
+
+      color: #34495e;}
+
+ .videogrupos{ margin-top: 7%;
+     font-family: 'Rubik', sans-serif;
+
+      color: #34495e;
+      }
+
+.h5{  text-align: center;
+      }
+.videogrupost{ font-family: 'Rubik', sans-serif;
+
+      color: #34495e; 
+      margin-top: 205%;
+      text-align: center;
+  }
+
+
+  .grid_containerinst{
+		grid-template: 
+		"header 	 header"    100px 
+		"main        main"      1950px
+		"footer 	 footer"    60px /
+		 400px       200px;
+	}
+
+.inst { 
+  
+	
+        margin-right: 2%;
+        margin-left: 2%;
+        padding:2%;
+        
+	    	    float:right;
+	    width: 95%;
+	    height: 500px; 
+	     
+	 }
+
+#imginst{
+	
+        margin-top: 2%;
+        margin-left: 15%;
+        
+	    width: 25%;
+	    height: 200px;
+	    font-family: 'Rubik', sans-serif;
+      color: #34495e;
+	     
+	     }
+
+#imginst1{
+	
+        margin-top: 12%;
+        margin-left: 13%;
+       
+	    width: 25%;
+	    height: 200px;
+	    font-family: 'Rubik', sans-serif;
+      color: #34495e;
+	     
+	     }
+
+#imginst2{ 
+	
+        margin-top: 62%;	
+        margin-left: 12%;    
+	    width: 25%;
+	    height: 200px;
+	    font-family: 'Rubik', sans-serif;
+      color: #34495e;
+	     
+	 }
+
+#imginst3{
+      margin-top: -5%;
+	    margin-left: 1%;
+	    width: 25%;
+	    height: 200px;
+	    font-family: 'Rubik', sans-serif;
+      color: #34495e;
+	     
+	 }
+
+#imginst4{
+	
+        
+        margin-left: 16%;
+        margin-top: 5%;
+        
+	    	
+	    font-family: 'Rubik', sans-serif;
+      color: #34495e;
+     
+	     
+	     }
+
+	#imginst5{ 
+		margin-left: 16%;
+
+	    font-family: 'Rubik', sans-serif;
+      color: #34495e;
+       
+	     
+	     }
+
+
+.tituloinst{  color: #34495e;
+        font-size: 20pt;
+        
+        
+        
+	   
+	   font-family: 'Grand Hotel', cursive;}
+
+
+.tituloinst2 {  font-family: 'Rubik', sans-serif;
+      color: #34495e;
+        font-size: 10pt;
+         text-align: center;
+
+       
+      }
+.tituloinst3 {  font-family: 'Rubik', sans-serif;
+      color: #34495e;
+        font-size: 10pt;
+         margin-top: 45%;
+         text-align: center;
+        
+       
+       
+      
+}
+
+
+.h5{ font-family: 'Rubik', sans-serif;
+      color: #34495e; }
+ 
+ .grid_containerhora{
+		grid-template: 
+		"header 	 header"    100px 
+		"main        main"      700px
+		"footer 	 footer"    60px /
+		 400px       200px;
+	}
+	.titulohora{  color: #34495e;
+        font-size: 20pt;
+        margin-top: 1%;
+        margin-left: 6%;
+        
+        
+	   
+	   font-family: 'Grand Hotel', cursive;}
+
+
+.titulohora2{
+     font-family: 'Rubik', sans-serif;
+      color: #34495e;
+        font-size: 10pt;
+        margin-top: 1%;
+        
+        margin-left: 7.5%;
+        
+        
+	     }  
+
+.horaimg { margin-top: 5%;
+            display: none;
+      
+     
+	}
+.horaimg1{ 
+             margin-top: 5%;
+              margin-left: 20%;}
+
+
+  .columnahora{ padding: 20px;
+column-count: 2;
+column-gap: 40px;
+column-rule: 1px solid #34495e; 
+color: #34495e;
+ font-family: 'Rubik', sans-serif;
+ font-size: 9pt;
+ margin-left: 5%;
+}
+
+} 
+
+
+
+ @media (min-width: 1200px)  {
+	.grid_container{
+		grid-template: 
+		"header 	header 	header" 	100px
+		"main       main    sidebar" 	580px
+		"footer 	footer 	footer" 	60px /
+		 400px 		auto 	200px;
+	}
+
+
+
+
+
+.logoup{ 
+	float: left;
+	margin-left: 2%;
+    margin-top: 0.5%;}
+
+#nombre{ 
+	     float: right;
+	     margin-right: 5%;
+	     padding-top: 1.5%;}
+
+#nombre a{ font-size: 8pt;
+	       
+	       text-decoration:	none; 
+	       	color:#ffffff;
+	        font-family: 'Rubik', sans-serif;
+}
+
+.titulo{ color: #34495e;
+        font-size: 20pt;
+        
+        margin-left: 15%;
+        padding: 1%;
+        float: left;
+	  
+	   font-family: 'Grand Hotel', cursive;
+	 }
+
+
+.tituloparte2{
+     font-family: 'Rubik', sans-serif;
+      color: #34495e;
+        font-size: 10pt;
+        margin-top: 2%;
+        
+        margin-left: 15%;
+        padding: 2%;
+        float: left;
+       
+	     }
+
+.tituloparte3{ text-decoration: underline;
+		           text-align: center;
+
+               
+             }
+
+.imginicio {  
+              margin-left: 10%;
+              margin-top: 8%;
+              width: 100%;
+                             }
+                             .imginicio1{ margin-left: 10%;
+              margin-top: 8%; display: none; }
+
+
+
+form{
+    background-color: #fd79a8;
+    width: 100%;
+    height: 100%;
+
+ 
+    margin-right:10%;
+    padding: 5%;
+    
+    padding-top: 50px;
+     font-family: 'Rubik', sans-serif;
+          text-align: center;
+
+
+}
+
+.cajas{
+    width: 80%;
+}
+
+.boton{
+    width: 80px;
+    height: 30px;
+    color: #dfe6e9;
+    background-color: #00b894;
+     font-family: 'Rubik', sans-serif;
+
+   
+}
+.navbar{
+	margin: 0;
+     margin-left: 2%; 
+
+}
+.navbar li{
+	display: inline;
+}
+
+.navbar li	a {
+	 font-family: 'Rubik', sans-serif;
+
+	font-size: 15px;
+	text-decoration: none;
+	float: right;
+	padding: 0.5%;
+	margin-top: 5%;
+	margin-right: 2%;
+	color:#1e272e; 
+	background-color: #ffffff;
+	border-radius: 20px;
+	
+
+	
+	
+	
+}
+#logo{  padding-left: 1%;
+	   margin-top: -1%;
+
+	float: left;
+	   
+
+ }
+
+.grid_containergrupos{
+		grid-template: 
+		"header 	header 	header" 	100px 
+		"main       main    main" 	    1500px
+		"footer 	footer 	footer" 	60px /
+		 400px 		auto 	200px;
+	}
+.titulogrupos{  color: #34495e;
+        font-size: 20pt;
+        
+        margin-left: 6%;
+     
+	   font-family: 'Grand Hotel', cursive;}
+
+
+.infogrupos{
+     font-family: 'Rubik', sans-serif;
+      color: #34495e;
+        font-size: 10pt;
+        margin-top: 4%;
+        
+        margin-left: 9%;
+       
+	     }  
+
+.personajes { 
+   font-size: 18px;
+	text-decoration: none; 
+	color:#1e272e;
+        margin-right: 2%;
+        margin-left: 2%;
+        padding:2%;
+        
+	    	    float:right;
+	    width: 95%;
+	    height: 500px; 
+	     
+	 font-family: 'Rubik', sans-serif;}
+
+
+#imggrupos{font-size: 18px;
+	text-decoration: none; 
+	    margin-left: 5%;
+	    margin-top: 3%;
+
+       font-family: 'Rubik', sans-serif;
+	  color: #34495e;}
+
+#imggrupos1{font-size: 18px;
+	text-decoration: none; 
+	
+	     margin-top: -31%;
+	     margin-left: 50%;
+	     font-family: 'Rubik', sans-serif;
+	  color: #34495e;}
+
+#imggrupos2{font-size: 18px;
+	text-decoration: none; 
+	margin-top: 2%;
+	margin-left: 2%;
+	     
+	 font-family: 'Rubik', sans-serif;
+	 color: #34495e;}
+
+#imggrupos3{font-size: 18px;
+	text-decoration: none; 
+	margin-top: -34%;
+	     margin-left: 37%;
+	 font-family: 'Rubik', sans-serif;
+
+      color: #34495e;}
+
+ .videogrupos{ margin-top: 3%;
+     font-family: 'Rubik', sans-serif;
+
+      color: #34495e;
+      }
+
+.h5{  text-align: center;
+      }
+.videogrupost{ font-family: 'Rubik', sans-serif;
+
+      color: #34495e; 
+      margin-top: 70%;
+      
+      text-align: center;
+  }
+
+
+.grid_containerinst{
+		grid-template: 
+		"header 	header 	header" 	100px 
+		"main       main    main" 	    1150px
+		"footer 	footer 	footer" 	60px /
+		 400px 		auto 	200px;
+	}
+
+.inst { 
+  
+	
+        margin-right: 2%;
+        margin-left: 2%;
+        padding:2%;
+        
+	    	    float:right;
+	    width: 95%;
+	    height: 500px; 
+	     
+	 }
+
+#imginst{
+	
+        
+        margin-left: 5%;
+        padding:2%;
+        
+	    	    float:left;
+	    width: 25%;
+	    height: 200px;
+	    font-family: 'Rubik', sans-serif;
+      color: #34495e;
+	     
+	     }
+
+#imginst1{
+	
+        
+        margin-right: 25%;
+        padding:2%;
+        
+	    	    float: right;
+	    width: 25%;
+	    height: 200px;
+	    font-family: 'Rubik', sans-serif;
+      color: #34495e;
+	     
+	     }
+
+#imginst2{ 
+	
+        
+       
+        margin-top: 33%;
+        margin-left: 4.25%;
+	    	    
+	    width: 25%;
+	    height: 200px;
+	    font-family: 'Rubik', sans-serif;
+      color: #34495e;
+	     
+	 }
+
+#imginst3{
+       margin-top: -39.5%;
+       margin-left: 37%;
+	    	    
+	    width: 25%;
+	    height: 200px;
+	    font-family: 'Rubik', sans-serif;
+      color: #34495e;
+	     
+	 }
+
+#imginst4{
+	
+        
+        margin-left: 8%;
+        margin-top: 5%;
+        
+	    	
+	    font-family: 'Rubik', sans-serif;
+      color: #34495e;
+	     
+	     }
+
+	#imginst5{ 
+		 margin-top: -35%;
+		 margin-left: 52%;
+
+	    font-family: 'Rubik', sans-serif;
+      color: #34495e;
+	     
+	     }
+
+
+.tituloinst{  color: #34495e;
+        font-size: 20pt;
+        
+        margin-left: 8%;
+	   
+	   font-family: 'Grand Hotel', cursive;}
+
+
+.tituloinst2 {  font-family: 'Rubik', sans-serif;
+      color: #34495e;
+        font-size: 10pt;
+        text-align: center;
+       
+      }
+.tituloinst3 {  font-family: 'Rubik', sans-serif;
+      color: #34495e;
+        font-size: 10pt;
+        text-align: center;
+       
+       
+      
+}
+
+
+.h5{ font-family: 'Rubik', sans-serif;
+      color: #34495e;
+       }
+.grid_containerhora{
+		grid-template: 
+		"header 	header 	header" 	100px 
+		"main       main    main" 	    700px
+		"footer 	footer 	footer" 	60px /
+		 100px 		auto 	100px;
+	}
+
+.titulohora{  color: #34495e;
+        font-size: 20pt;
+        margin-top: 1%;
+        margin-left: 16%;
+        
+     
+	   
+	   font-family: 'Grand Hotel', cursive;}
+
+
+.titulohora2{
+     font-family: 'Rubik', sans-serif;
+      color: #34495e;
+        font-size: 10pt;
+        margin-top: 1%;
+        
+        margin-left: 17%;
+        
+        
+	     }  
+.columnahora{ padding: 20px;
+column-count: 2;
+column-gap: 40px;
+column-rule: 1px solid #34495e; 
+color: #34495e;
+ font-family: 'Rubik', sans-serif;
+ font-size: 11pt;
+ margin-left: 15%;
+}
+.horaimg { 
+
+
+  	    margin-left: 33%;
+        margin-top: 5%;
+	   
+	    width: 95%;
+	    height: 500px; 
+	}
+.horaimg1{ 
+           margin-right: 2.5%;
+        float: right;
+       margin-top: -35%;
+       display: none;}
+
+ 
+
+} 
+
+
+@media (min-width: 992px) and (max-width: 1199px)  {
+	.grid_container{
+		grid-template: 
+		"header 	header   header"    100px 
+		"main       main     sidebar"   590px
+		"footer 	footer   footer"    60px /
+		 400px 		auto     200px;
+	}
+
+
+.logoup{ 
+	float: left;
+	margin-left: 2%;
+    margin-top: 0.5%;}
+
+#nombre{ 
+	     float: right;
+	     margin-right: 5%;
+	     padding-top: 1.5%;}
+
+#nombre a{ font-size: 8pt;
+	       
+	       text-decoration:	none; 
+	       	color:#ffffff;
+	        font-family: 'Rubik', sans-serif;
+}
+
+.titulo{ color: #34495e;
+        font-size: 20pt;
+        margin-top: 5%;
+        margin-left: 10%;
+        padding: 2%;
+        float: left;
+	   
+	   font-family: 'Grand Hotel', cursive;}
+
+
+.tituloparte2{
+     font-family: 'Rubik', sans-serif;
+      color: #34495e;
+        font-size: 10pt;
+        margin-top: 1%;
+        
+        margin-left: 10%;
+        padding: 2%;
+        float: left;
+	     }
+
+.tituloparte3{ text-decoration: underline;
+		           text-align: center;
+
+               
+                }
+                .imginicio {  
+              margin-left: 4%;
+              margin-top: 8%;
+              width: 100%;
+                             }
+                             
+.imginicio1{ margin-left: 10%;
+              margin-top: 8%; display: none; }
+
+
+form{
+    background-color: #fd79a8;
+    width: 100%;
+    height: 100%;
+
+ 
+    margin-right:10%;
+    padding: 5%;
+    
+    padding-top: 50px;
+     font-family: 'Rubik', sans-serif;
+          text-align: center;
+
+
+}
+
+.cajas{
+    width: 80%;
+}
+
+.boton{
+    width: 80px;
+    height: 30px;
+    color: #dfe6e9;
+    background-color: #00b894;
+     font-family: 'Rubik', sans-serif;
+
+   
+}
+
+
+
+
+
+
+
+ .navbar{
+	margin: 0;
+     margin-left: 2%; 
+
+}
+.navbar li{
+	display: inline;
+}
+
+.navbar li	a {
+	 font-family: 'Rubik', sans-serif;
+
+	font-size: 15px;
+	text-decoration: none;
+	float: right;
+	padding: 0.5%;
+	margin-top: 6%;
+	margin-right: 2%;
+	color:#1e272e; 
+	background-color: #ffffff;
+	border-radius: 20px;
+	
+
+	
+	
+	
+}
+#logo{  padding-left: 1%;
+	   margin-top: -1%;
+
+	float: left;
+	   
+
+ }
+
+ .grid_containergrupos{
+		grid-template: 
+		"header 	header   header"    100px 
+		"main       main     main"      1400px
+		"footer 	footer   footer"    60px /
+		 400px 		auto     200px;
+	}
+
+
+.titulogrupos{  color: #34495e;
+        font-size: 20pt;
+        margin-top: 1%;
+        margin-left: 6%;
+     
+	   font-family: 'Grand Hotel', cursive;}
+
+
+.infogrupos{
+     font-family: 'Rubik', sans-serif;
+      color: #34495e;
+        font-size: 10pt;
+        margin-top: 3%;
+        
+        margin-left: 7%;
+        text-align: center;
+       
+	     }  
+
+.personajes { 
+   font-size: 18px;
+	text-decoration: none; 
+	color:#1e272e;
+        margin-right: 2%;
+        margin-left: 2%;
+        padding:2%;
+        
+	    	    float:right;
+	    width: 95%;
+	    height: 500px; 
+	     
+	 font-family: 'Rubik', sans-serif;}
+
+
+#imggrupos{font-size: 18px;
+	text-decoration: none; 
+	    margin-left: 5%;
+	    margin-top: 3%;
+       font-family: 'Rubik', sans-serif;
+	  color: #34495e;}
+
+#imggrupos1{font-size: 18px;
+	text-decoration: none; 
+	
+	     margin-top: -34.5%;
+	     margin-left: 50%;
+	     font-family: 'Rubik', sans-serif;
+	  color: #34495e;}
+
+#imggrupos2{font-size: 18px;
+	text-decoration: none; 
+	margin-top: 2%;
+	margin-left: 2%;
+	     
+	 font-family: 'Rubik', sans-serif;
+	 color: #34495e;}
+
+#imggrupos3{font-size: 18px;
+	text-decoration: none; 
+	margin-top: -36.5%;
+	     margin-left: 37%;
+	 font-family: 'Rubik', sans-serif;
+
+      color: #34495e;}
+
+ .videogrupos{ margin-top: 5%;
+     font-family: 'Rubik', sans-serif;
+
+      color: #34495e;
+      }
+
+.h5{  text-align: center;
+      }
+.videogrupost{ font-family: 'Rubik', sans-serif;
+
+      color: #34495e; 
+      margin-top: 75%;
+      
+      text-align: center;
+  }
+
+
+
+ .grid_containerinst{
+		grid-template: 
+		"header 	header   header"    100px 
+		"main       main     main"      1150px
+		"footer 	footer   footer"    60px /
+		 400px 		auto     200px;
+	}
+
+.inst { 
+  
+	
+        margin-right: 2%;
+        margin-left: 2%;
+        padding:2%;
+        
+	    	    float:right;
+	    width: 95%;
+	    height: 500px; 
+	     
+	 }
+
+#imginst{
+	
+        
+        margin-left: 5%;
+       margin-top: 5%;
+	    width: 25%;
+	    height: 200px;
+	    font-family: 'Rubik', sans-serif;
+      color: #34495e;
+	     
+	     }
+
+#imginst1{ 
+	margin-top: -26.5%;
+	margin-left: 50% ;
+	    width: 25%;
+	    height: 200px;
+	    font-family: 'Rubik', sans-serif;
+      color: #34495e;
+	     
+	     }
+
+#imginst2{ 
+	
+     margin-top: 10%;
+     margin-left: 2.5%;
+	    	    
+	    width: 25%;
+	    height: 200px;
+	    font-family: 'Rubik', sans-serif;
+      color: #34495e;
+	     
+	 }
+
+#imginst3{
+                margin-left: 37.5%;
+	    	    margin-top: -43%;
+	    width: 25%;
+	    height: 200px;
+	    font-family: 'Rubik', sans-serif;
+      color: #34495e;
+	     
+	 }
+
+#imginst4{
+	
+        
+        margin-left: 6%;
+        margin-top: 4%;
+        
+	    	
+	    font-family: 'Rubik', sans-serif;
+      color: #34495e;
+	     
+	     }
+
+	#imginst5{ 
+		 margin-top: -39.5%;
+		 margin-left: 53%;
+
+	    font-family: 'Rubik', sans-serif;
+      color: #34495e;
+	     
+	     }
+
+
+.tituloinst{  color: #34495e;
+        font-size: 20pt;
+        
+        
+        
+	   
+	   font-family: 'Grand Hotel', cursive;}
+
+
+.tituloinst2 {  font-family: 'Rubik', sans-serif;
+      color: #34495e;
+        font-size: 10pt;
+        text-align: center;
+       
+      }
+.tituloinst3 {  font-family: 'Rubik', sans-serif;
+      color: #34495e;
+        font-size: 10pt;
+        text-align: center;
+       
+       
+      
+}
+
+
+.h5{ font-family: 'Rubik', sans-serif;
+      color: #34495e; }
+
+ .grid_containerhora{
+		grid-template: 
+		"header 	header   header"    100px 
+		"main       main     main"      700px
+		"footer 	footer   footer"    60px /
+		 400px 		auto     200px;
+	}
+.titulohora{  color: #34495e;
+        font-size: 20pt;
+        margin-top: 1%;
+        margin-left: 16%;
+        
+        
+	   
+	   font-family: 'Grand Hotel', cursive;}
+
+
+.titulohora2{
+     font-family: 'Rubik', sans-serif;
+      color: #34495e;
+        font-size: 10pt;
+        margin-top: 1%;
+        
+        margin-left: 17%;
+        
+       
+	     }  
+
+.horaimg { 
+
+
+  	    margin-left: 30%;
+        margin-top: 5%;
+	   
+	    width: 95%;
+	    height: 500px; 
+	}
+	.horaimg1{ 
+           margin-right: 2.5%;
+        float: right;
+       margin-top: -35%;
+       display: none;}
+
+
+  .columnahora{ padding: 20px;
+column-count: 2;
+column-gap: 40px;
+column-rule: 1px solid #34495e; 
+color: #34495e;
+ font-family: 'Rubik', sans-serif;
+ font-size: 11pt;
+ margin-left: 15%;
+}
+
+}
+
+ 
+
+ 
